@@ -1,0 +1,16 @@
+body {
+  background-color: #0F0F0F;
+  color: #F0F0F0;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+header {
+  background-color: #F0F0F0;
+  margin-bottom: 1em;
+  width: 100%;
+}
