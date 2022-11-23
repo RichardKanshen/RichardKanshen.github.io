@@ -24,3 +24,10 @@ h1 {
   padding: 0.25em;
   text-align: center;
 }
+
+h2 {
+  color: #F0F0F0;
+  font-family: "Mode G";
+  margin-left: 80px;
+  text-align: left;
+}
