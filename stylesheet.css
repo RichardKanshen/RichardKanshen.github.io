@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Corporate Logo ver2';
+    src: url('Corporate-Logo-Bold-ver2.eot');
+    src: url('Corporate-Logo-Bold-ver2.eot?#iefix') format('embedded-opentype'),
+        url('Corporate-Logo-Bold-ver2.woff') format('woff'),
+        url('Corporate-Logo-Bold-ver2.ttf') format('truetype'),
+        url('Corporate-Logo-Bold-ver2.svg#Corporate-Logo-Bold-ver2') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
