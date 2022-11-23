@@ -14,3 +14,13 @@ header {
   margin-bottom: 1em;
   width: 100%;
 }
+
+h1 {
+  background-color: #F0F0F0;
+  color: #0F0F0F;
+  font-family: "Corporate Logo ver2";
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  text-align: center;
+}
