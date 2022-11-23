@@ -10,3 +10,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Mode G';
+    src: url('ModeG-Regular.eot');
+    src: url('ModeG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ModeG-Regular.woff') format('woff'),
+        url('ModeG-Regular.ttf') format('truetype'),
+        url('ModeG-Regular.svg#ModeG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
