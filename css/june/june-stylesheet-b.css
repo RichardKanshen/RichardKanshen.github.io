@@ -1,0 +1,21 @@
+.pride {
+
+    background-color: transparent;
+    color: transparent;
+    background-clip: text;
+
+
+    -webkit-text-fill-color: #D60270;
+    text-fill-color: #D60270;
+    -webkit-text-fill-color: #D60270;
+    text-fill-color: #D60270;
+    -webkit-text-fill-color: #9B4F96;
+    text-fill-color: #9B4F96;
+    -webkit-text-fill-color: #0038A8;
+    text-fill-color: #0038A8;
+    -webkit-text-fill-color: #0038A8;
+    text-fill-color: #0038A8;
+
+    -webkit-text-fill-color: vertical;
+    text-fill-color: vertical;
+}

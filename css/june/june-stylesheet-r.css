@@ -1,0 +1,28 @@
+.pride {
+    /* Set the background color to transparent */
+    background-color: transparent;
+
+    /* Set the text color to transparent */
+    color: transparent;
+
+    /* Set the background clip to text */
+    background-clip: text;
+
+    /* Set the text fill color to the desired colors */
+    -webkit-text-fill-color: red;
+    text-fill-color: red;
+    -webkit-text-fill-color: orangered;
+    text-fill-color: orangered;
+    -webkit-text-fill-color: yellow;
+    text-fill-color: yellow;
+    -webkit-text-fill-color: green;
+    text-fill-color: green;
+    -webkit-text-fill-color: blue;
+    text-fill-color: blue;
+    -webkit-text-fill-color: purple;
+    text-fill-color: purple;
+
+    /* Set the text fill direction to vertical */
+    -webkit-text-fill-color: vertical;
+    text-fill-color: vertical;
+}
