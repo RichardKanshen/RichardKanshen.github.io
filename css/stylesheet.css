@@ -29,13 +29,13 @@ h1 {
   padding: 0.25em;
   text-align: center;
   line-height: 100%;
-  transition: all 0.5s;
+  transition: all 3s;
   opacity: 0;
 }
 
 h1.show {
   top: 0;
-  width: auto;
+  width: 100%;
   height: auto;
   line-height: initial;
   transform: translate(0, 0);
