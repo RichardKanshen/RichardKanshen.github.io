@@ -36,7 +36,7 @@ h1 {
 h1.show {
   top: 0;
   width: 100%;
-  height: auto;
+  height: 45px;
   line-height: initial;
   transform: translate(0, 0);
   transition: all 3s;
