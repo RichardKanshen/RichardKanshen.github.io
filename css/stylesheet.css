@@ -30,6 +30,7 @@ h1 {
   line-height: 100%;
   transition: all 3s;
   opacity: 1;
+  z-index: 1;
 }
 
 h1.show {
