@@ -1,7 +1,7 @@
 .pride {
     background-image: "/images/june/l.png";
     -webkit-background-image: "/images/june/l.png";
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-color: transparent;
+    -webkit-background-color: transparent;
+    color: black;
 }
