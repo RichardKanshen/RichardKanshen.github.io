@@ -1,31 +1,7 @@
 .pride {
-
+    background-image: "/images/june/i.png";
+    -webkit-background-image: "/images/june/i.png";
     background-clip: text;
-
-
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #7902AA;
-    text-fill-color: #7902AA;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    -webkit-text-fill-color: #FFD800;
-    text-fill-color: #FFD800;
-    
-    -webkit-text-fill-color: horizontal;
-    text-fill-color: horizontal;
+    -webkit-background-clip: text;
+    color: transparent;
 }
