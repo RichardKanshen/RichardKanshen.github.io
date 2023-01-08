@@ -11,15 +11,16 @@
       if (currentMonth === 5) {
       document.querySelector('h1').classList.add('pride');
        const stylesheets = [
-          '\css\june\june-stylesheet-r',
-          '\css\june\june-stylesheet-l',
-          '\css\june\june-stylesheet-g',
-          '\css\june\june-stylesheet-b',
-          '\css\june\june-stylesheet-t',
-          '\css\june\june-stylesheet-q',
-          '\css\june\june-stylesheet-i',
-          '\css\june\june-stylesheet-a'
+        '/css/june/june-stylesheet-r.css',
+        '/css/june/june-stylesheet-l.css',
+        '/css/june/june-stylesheet-g.css',
+        '/css/june/june-stylesheet-b.css',
+        '/css/june/june-stylesheet-t.css',
+        '/css/june/june-stylesheet-q.css',
+        '/css/june/june-stylesheet-i.css',
+        '/css/june/june-stylesheet-a.css'
         ];
+
       }
       const randomStylesheet = stylesheets[Math.floor(Math.random() * stylesheets.length)];
       const stylesheet = document.querySelector('#june-stylesheet');
