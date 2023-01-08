@@ -1,6 +1,6 @@
 .pride {
-    background-image: "/images/june/b.png";
-    -webkit-background-image: "/images/june/b.png";
+    background-image: url(/images/june/b.png);
+    -webkit-background-image: url(/images/june/b.png);
     background-color: transparent;
     -webkit-background-color: transparent;
     color: black;
