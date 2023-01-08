@@ -4,28 +4,6 @@
     <link rel="stylesheet" href="/css/stylesheet.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
     <link id="june-stylesheet" rel="stylesheet" href="">
-    <script id="june">
-      const currentDate = new Date();
-      const currentMonth = currentDate.getMonth();
-
-      if (currentMonth === 0) {
-      document.querySelector('h1').classList.add('pride');
-       const stylesheets = [
-        '/css/june/june-stylesheet-r.css',
-        '/css/june/june-stylesheet-l.css',
-        '/css/june/june-stylesheet-g.css',
-        '/css/june/june-stylesheet-b.css',
-        '/css/june/june-stylesheet-t.css',
-        '/css/june/june-stylesheet-q.css',
-        '/css/june/june-stylesheet-i.css',
-        '/css/june/june-stylesheet-a.css'
-        ];
-
-      }
-      const randomStylesheet = stylesheets[Math.floor(Math.random() * stylesheets.length)];
-      const stylesheet = document.querySelector('#june-stylesheet');
-      stylesheet.href = randomStylesheet;
-    </script>
     <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
     <div style="height: 61px; clear: both;"></div>
     <h1 id="website-title">リチャード・カンシェン</h1>
@@ -71,5 +49,27 @@
         setTimeout(() => {
           document.querySelector('h1').classList.add('show');
         }, 1000);
+      </script>
+      <script id="june">
+        const currentDate = new Date();
+        const currentMonth = currentDate.getMonth();
+
+        if (currentMonth === 0) {
+          document.querySelector('h1').classList.add('pride');
+          const stylesheets = [
+            '/css/june/june-stylesheet-r.css',
+            '/css/june/june-stylesheet-l.css',
+            '/css/june/june-stylesheet-g.css',
+            '/css/june/june-stylesheet-b.css',
+            '/css/june/june-stylesheet-t.css',
+            '/css/june/june-stylesheet-q.css',
+            '/css/june/june-stylesheet-i.css',
+            '/css/june/june-stylesheet-a.css'
+          ];
+
+        }
+        const randomStylesheet = stylesheets[Math.floor(Math.random() * stylesheets.length)];
+        const stylesheet = document.querySelector('#june-stylesheet');
+        stylesheet.href = randomStylesheet;
       </script>
 </html>
