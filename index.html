@@ -3,7 +3,7 @@
     <title>Richard Kanshen</title>
     <link rel="stylesheet" href="/css/stylesheet.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
-    <link id="june-stylesheet" rel="stylesheet" href="">
+    <link id="june-stylesheet" rel="stylesheet" href>
     <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
     <div style="height: 61px; clear: both;"></div>
     <h1 id="website-title">リチャード・カンシェン</h1>
@@ -53,7 +53,8 @@
       <script id="june">
         const currentDate = new Date();
         const currentMonth = currentDate.getMonth();
-        let stylesheets = [];
+
+        let randomStylesheet = '/css/default-stylesheet.css'; // Set default value for randomStylesheet
 
         if (currentMonth === 0) {
           document.querySelector('h1').classList.add('pride');
@@ -67,9 +68,8 @@
             '/css/june/june-stylesheet-i.css',
             '/css/june/june-stylesheet-a.css'
           ];
-
+          randomStylesheet = stylesheets[Math.floor(Math.random() * stylesheets.length)]; // Reassign randomStylesheet
         }
-        const randomStylesheet = stylesheets[Math.floor(Math.random() * stylesheets.length)];
         const stylesheet = document.querySelector('#june-stylesheet');
         stylesheet.href = randomStylesheet;
       </script>
