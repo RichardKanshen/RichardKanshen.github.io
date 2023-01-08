@@ -1,5 +1,6 @@
 .pride {
-    background-size: contain;    
+    background-size: contain;
+    background-position: -2 11.1;        
     background-image: url(/images/june/q.png);
     -webkit-background-image: url(/images/june/q.png);
     background-clip: text;
