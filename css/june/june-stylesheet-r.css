@@ -1,5 +1,5 @@
-span.pride {
-    
+.pride {
+    background-size: cover;    
     background-image: url(/images/june/r.png);
     -webkit-background-image: url(/images/june/r.png);
     background-clip: text;
