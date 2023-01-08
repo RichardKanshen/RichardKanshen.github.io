@@ -1,19 +1,5 @@
 .pride {
-
+    background-image: "/images/june/t.png";
     background-clip: text;
-
-
-    -webkit-text-fill-color: #5BCEFA;
-    text-fill-color: #5BCEFA;
-    -webkit-text-fill-color: #F5A9B8;
-    text-fill-color: #F5A9B8;
-    -webkit-text-fill-color: #FFFFFF;
-    text-fill-color: #FFFFFF;
-    -webkit-text-fill-color: #F5A9B8;
-    text-fill-color: #F5A9B8;
-    -webkit-text-fill-color: #5BCEFA;
-    text-fill-color: #5BCEFA;
-
-    -webkit-text-fill-color: vertical;
-    text-fill-color: vertical;
+    color: transparent;
 }
