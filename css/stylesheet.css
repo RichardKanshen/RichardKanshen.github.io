@@ -46,9 +46,7 @@ h1.show {
 }
 
 h1.scroll {
-  text-align: left !important;
-  transition: text-align 1s;
-  -webkit-transition: all 3s;
+  animation: text-align-left 3s;
 }
 
 h2 {

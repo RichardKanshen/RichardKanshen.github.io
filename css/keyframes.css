@@ -1,0 +1,11 @@
+@keyframes title-scrolled {
+    from {
+        text-align: center;
+        left: initial;
+    }
+
+    to {
+        text-align: left;
+        left: 0;
+    }
+}
