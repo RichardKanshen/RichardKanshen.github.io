@@ -1,7 +1,7 @@
 const currentDate = new Date();
 const currentMonth = currentDate.getMonth();
 
-let randomStylesheet = '/css/default-stylesheet.css'; // Set default value for randomStylesheet
+let randomStylesheet = '/css/stylesheet.css'; // Set default value for randomStylesheet
 
 if (currentMonth === 5) {
   document.querySelector('h1 span').classList.add('pride');
