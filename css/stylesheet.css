@@ -43,9 +43,9 @@ h1.show {
   transition: all 3s;
 }
 
-.scroll {
+h1.scroll {
   text-align: left !important;
-  transition: all 3s;
+  transition: text-align 1s;
 }
 
 h2 {
