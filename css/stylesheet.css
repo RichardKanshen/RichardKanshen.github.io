@@ -43,6 +43,14 @@ h1.show {
   transition: all 3s;
 }
 
+#website-title {
+  transition: all 3s;
+}
+
+#website-title.scroll {
+  text-align: left;
+}
+
 h2 {
   color: #F0F0F0;
   font-family: "Mode G";
