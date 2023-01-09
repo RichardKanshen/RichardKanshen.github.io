@@ -43,12 +43,9 @@ h1.show {
   transition: all 3s;
 }
 
-#website-title {
+h1 span.scroll {
+  text-align: left !important;
   transition: all 3s;
-}
-
-#website-title.scroll {
-  text-align: left;
 }
 
 h2 {
