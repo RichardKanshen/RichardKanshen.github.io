@@ -3,7 +3,7 @@ const currentMonth = currentDate.getMonth();
 
 let randomStylesheet = '/css/default-stylesheet.css'; // Set default value for randomStylesheet
 
-if (currentMonth === 0) {
+if (currentMonth === 5) {
   document.querySelector('h1 span').classList.add('pride');
 const stylesheets = [
     '/css/june/june-stylesheet-r.css',
