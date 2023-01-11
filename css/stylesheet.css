@@ -100,3 +100,23 @@ section#itch-summer {
   background: radial-gradient(ellipse at top, #ffffff, #e7e7e7);
   font-family: "VCR OSD Mono";
 }
+
+/*TypeWriter*/
+
+#name-typewriter {
+  background-color: #0F0F0F;
+  color: #F0F0F0;
+  font-size: 225;
+}
+
+.jp-typewriter {
+  font-family: 'Corporate Logo ver2'
+}
+
+.en-typewriter {
+  font-family: 'Galano Grotesque'
+}
+
+.ru-typewriter {
+  font-family: 'Giga Sans'
+}
