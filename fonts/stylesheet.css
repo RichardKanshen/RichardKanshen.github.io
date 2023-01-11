@@ -33,3 +33,27 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('GalanoGrotesqueAltDEMO-Bold.eot');
+    src: url('GalanoGrotesqueAltDEMO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GalanoGrotesqueAltDEMO-Bold.woff') format('woff'),
+        url('GalanoGrotesqueAltDEMO-Bold.ttf') format('truetype'),
+        url('GalanoGrotesqueAltDEMO-Bold.svg#GalanoGrotesqueAltDEMO-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Giga Sans';
+    src: url('GigaSans-ExtraBold.eot');
+    src: url('GigaSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('GigaSans-ExtraBold.woff') format('woff'),
+        url('GigaSans-ExtraBold.ttf') format('truetype'),
+        url('GigaSans-ExtraBold.svg#GigaSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
