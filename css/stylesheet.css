@@ -109,6 +109,11 @@ section#itch-summer {
   font-size: 175;
 }
 
+#name-typewriter span {
+  display: block;
+}
+
+
 .jp-typewriter {
   font-family: 'Corporate Logo ver2'
 }
