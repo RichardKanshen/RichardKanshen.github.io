@@ -88,6 +88,10 @@ section {
   height: 815px;
 }
 
+section#under-title {
+  background: radial-gradient(ellipse at top, #303030, #030303);
+}
+
 section#music {
   background: radial-gradient(ellipse at top, #6495ed, #42629e);
 }
