@@ -1,22 +1,19 @@
 @keyframes title-scrolled {
-    from {
-        text-align: center;
-        left: initial;
+from {
+        transform: translateX(0);
     }
 
     to {
-        text-align: left;
-        left: 0;
+        transform: translateX(-42%);
     }
 }
+
 @-webkit-keyframes title-scrolled {
-    from {
-        text-align: center;
-        left: initial;
+from {
+        transform: translateX(0);
     }
 
     to {
-        text-align: left;
-        left: 0;
+        transform: translateX(-42%);
     }
 }
