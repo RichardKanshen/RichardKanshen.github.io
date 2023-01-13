@@ -46,8 +46,8 @@ h1.show {
 }
 
 h1.scroll {
-  animation: title-scrolled 3s;
-  -webkit-animation: title-scrolled 3s;
+  animation: title-scrolled 3s forwards;
+  -webkit-animation: title-scrolled 3s forwards;
 }
 
 h2 {
