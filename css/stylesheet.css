@@ -36,7 +36,7 @@ h1 {
 
 h1.show {
   top: 0;
-  width: 100%;
+  width: 200%;
   height: 45px;
   padding: 0.25em;
   line-height: initial;
