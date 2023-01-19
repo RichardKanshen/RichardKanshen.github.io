@@ -19,6 +19,15 @@
             addPath: 'locales/add/{{lng}}.json'
           }
         });
+      i18next.initTranslate()
+      function updateContent() {
+          i18next.initTranslate();
+        }
+
+      i18next.on('languageChanged', () => {
+          updateContent();
+        });
+
     </script>
     <title>{{ i18next.t('header.title') }}</title>
     <link rel="stylesheet" href="/css/stylesheet.css">
