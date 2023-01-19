@@ -3,9 +3,13 @@
     <script id="localization-mechanism">
       import i18next from 'i18next';
       import Backend from 'i18next-xhr-backend';
+      import browserLangDetect from 'i18next-browser-languagedetector';
+      import res2back from 'i18next-resources-to-backend'
 
       i18next
         .use(Backend)
+        .use(browserLangDetect)
+        .use(res2back)
         .init({
           lng: 'en',
           fallbackLng: 'en',
