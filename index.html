@@ -3,7 +3,6 @@
     <script id="localization-mechanism">
       import i18next from 'i18next';
       import Backend from 'i18next-xhr-backend';
-      let i18n
 
       i18next
         .use(Backend)
@@ -14,11 +13,9 @@
           backend: {
             loadPath: '/locales/{{lng}}.json'
           }
-        }).then(() => {
-          i18n = i18next;
-        })
+        });
     </script>
-    <title>{{i18n.t('header.title')}}</title>
+    <title>{{ i18next.t('header.title') }}</title>
     <link rel="stylesheet" href="/css/stylesheet.css">
     <link rel="stylesheet" href="/css/keyframes.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
@@ -26,7 +23,7 @@
     <link id="june-stylesheet" rel="stylesheet" href>
     <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
     <h1 id="website-title">
-      <span>{{i18n.t('header.title')}}</span>
+      <span>{{ i18next.t('header.title') }}</span>
       <div style="height: 61px; clear: both;"></div>
     </h1>
   </head>
