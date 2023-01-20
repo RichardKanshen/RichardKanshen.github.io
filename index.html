@@ -1,35 +1,6 @@
 <html>
   <head>
-    <script id="localization-mechanism">
-      import i18next from 'i18next';
-      import Backend from 'i18next-xhr-backend';
-      import browserLangDetect from 'i18next-browser-languagedetector';
-      import res2back from 'i18next-resources-to-backend'
-
-      i18next
-        .use(Backend)
-        .use(browserLangDetect)
-        .use(res2back)
-        .init({
-          lng: 'en',
-          fallbackLng: 'en',
-          debug: true,
-          backend: {
-            loadPath: '/locales/{{lng}}.json',
-            addPath: 'locales/add/{{lng}}.json'
-          }
-        });
-      i18next.initTranslate()
-      function updateContent() {
-          i18next.initTranslate();
-        }
-
-      i18next.on('languageChanged', () => {
-          updateContent();
-        });
-
-    </script>
-    <title>{{ i18next.t('header.title') }}</title>
+    <title>リチャード・カンシェン</title>
     <link rel="stylesheet" href="/css/stylesheet.css">
     <link rel="stylesheet" href="/css/keyframes.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
@@ -37,7 +8,7 @@
     <link id="june-stylesheet" rel="stylesheet" href>
     <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
     <h1 id="website-title">
-      <span>{{ i18next.t('header.title') }}</span>
+      <span>リチャード・カンシェン</span>
       <div style="height: 61px; clear: both;"></div>
     </h1>
   </head>
