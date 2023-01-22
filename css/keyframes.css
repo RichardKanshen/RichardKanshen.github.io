@@ -1,19 +1,19 @@
 @keyframes title-scrolled {
-    from {
-        transform: translateX(100%);
+from {
+        transform: inherit;
     }
 
     to {
-        transform: translateX(0);
+        transform: translate(0, 0);
     }
 }
 
 @-webkit-keyframes title-scrolled {
-    from {
-        transform: translateX(100%);
+from {
+        transform: inherit;
     }
 
     to {
-        transform: translateX(0);
+        transform: translate(0, 0);
     }
 }
