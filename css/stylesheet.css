@@ -20,7 +20,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   background-color: #F0F0F0;
   color: #0F0F0F;
   font-family: "Corporate Logo ver2";
@@ -37,8 +37,7 @@ h1 {
 h1.show {
   top: 0;
   width: 100%;
-  min-height: 45px;
-  height: fit-content;
+  height: 45px;
   padding: 0.25em;
   line-height: initial;
   transform: translate(0, 0);
