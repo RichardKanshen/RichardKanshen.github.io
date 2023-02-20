@@ -68,6 +68,7 @@ p {
 section {
   width: 100%;
   height: 815px;
+  position: relative;
 }
 
 section#under-title {
@@ -93,7 +94,6 @@ section#itch-summer {
   background-color: inherit;
   padding: 14px 28px;
   font-size: 16px;
-  font-family: "VCR OSD Mono";
   cursor: pointer;
   display: inline-block;
   margin: auto;
@@ -104,12 +104,13 @@ section#itch-summer {
   right: 0;
 }
 
-.default#itch-redir-main {
+.btn#itch-redir-main {
   color: #F0F0F0;
   background-color: #0F0F0F;
+  font-family: "VCR OSD Mono";
 }
 
-.default:hover#itch-redir-main {
+.btn:hover#itch-redir-main {
   color: #FFFFFF;
   background-color: #000000;
 }
