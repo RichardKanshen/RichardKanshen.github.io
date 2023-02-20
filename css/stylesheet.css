@@ -97,19 +97,19 @@ section#itch-summer {
   cursor: pointer;
   display: inline-block;
   margin: auto;
-  width: 175px;
+  width: 300px;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  bottom: 10px;
+  left: 0;
+  right: 0;
 }
 
 .default#itch-redir-main {
-  color: white;
-  transition: color 0.5s;
-  transition: background 0.5s;
+  color: #F0F0F0;
+  background-color: #0F0F0F;
 }
 
 .default:hover#itch-redir-main {
-  background: white;
-  color: black;
+  color: #FFFFFF;
+  background-color: #000000;
 }
