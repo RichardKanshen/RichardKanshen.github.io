@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'VCR OSD Mono';
-    src: url('/../itch.summer/fonts/VCROSDMono.eot');
-    src: url('/../itch.summer/fonts/VCROSDMono.eot?#iefix') format('embedded-opentype'),
-        url('/../itch.summer/fonts/VCROSDMono.woff') format('woff'),
-        url('/../itch.summer/fonts/VCROSDMono.ttf') format('truetype'),
-        url('/../itch.summer/fonts/VCROSDMono.svg#VCROSDMono') format('svg');
+    src: url('https://itchsummer.by.kanshen.click/fonts/VCROSDMono.eot');
+    src: url('https://itchsummer.by.kanshen.click/fonts/VCROSDMono.eot?#iefix') format('embedded-opentype'),
+        url('https://itchsummer.by.kanshen.click/fonts/VCROSDMono.woff') format('woff'),
+        url('https://itchsummer.by.kanshen.click/fonts/VCROSDMono.ttf') format('truetype'),
+        url('https://itchsummer.by.kanshen.click/fonts/VCROSDMono.svg#VCROSDMono') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
